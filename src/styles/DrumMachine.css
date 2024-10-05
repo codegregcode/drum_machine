@@ -1,0 +1,25 @@
+.drum-pads {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+}
+
+.drum-pad {
+  border: 1px solid #e3e5dcff;
+  background-color: #e3e5dcff;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 5px 0 #2c2c2c, 0 8px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.drum-pad:active,
+.drum-pad.clicked {
+  box-shadow: 0 2px 0 #2c2c2c, 0 4px 10px rgba(0, 0, 0, 0.2);
+  transform: translateY(3px);
+}
