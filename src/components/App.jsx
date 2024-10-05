@@ -1,7 +1,14 @@
+import { Route, Routes } from 'react-router-dom';
+import Land from './Land';
+import DrumMachine from './DrumMachine';
+
 function App() {
   return (
     <>
-      <h1>drum_machine</h1>
+      <Routes>
+        <Route path="/" element={<Land />} />
+        <Route path="/drum_machine" element={<DrumMachine />} />
+      </Routes>
     </>
   );
 }
