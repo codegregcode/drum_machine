@@ -39,3 +39,9 @@ keys on the keyboard: `Q`, `W`, `E`, `A`, `S`, `D`, `Z`, `X`, `C`. The drum pads
 ## incompabatibilities
 
 **React 18 has known incompatibilities with the tests for this project (see [issue](https://github.com/freeCodeCamp/freeCodeCamp/issues/45922))**
+
+## diary
+
+5/10 - [am] Yesterday evening I started this project, I didn't get much done apart from creating the basic project structure and importing the tests from freeCodeCamp.
+
+This morning I've worked on the routing in the app, so that you land on a title page and then click into the `<DrumMachine />` component. I've also been working on the design/styling of the drum machine, it is inspired by the Roland 909. I used the colour palette generator from coolors, and a free font from dafont that matches the typeface used by Roland.The 909 will also be the source of the sounds, as I'll record/export the 909 samples included in Logic Pro X. For the time being I've used the sounds provided by freeCodeCamp.
