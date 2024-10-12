@@ -55,11 +55,11 @@ keys on the keyboard: `Q`, `W`, `E`, `A`, `S`, `D`, `Z`, `X`, `C`. The drum pads
 
 ~~**User Story #4:** Within each `.drum-pad`, there should be an HTML5 `audio` element which has a `src` attribute pointing to an audio clip, a class name of `clip`, and an id corresponding to the inner text of its parent `.drum-pad` (e.g. `id="Q"`, `id="W"`, `id="E"` etc.).~~
 
-**User Story #5:** When I click on a `.drum-pad` element, the audio clip contained in its child `audio` element should be triggered.
+~~**User Story #5:** When I click on a `.drum-pad` element, the audio clip contained in its child `audio` element should be triggered.~~
 
-**User Story #6:** When I press the trigger key associated with each `.drum-pad`, the audio clip contained in its child `audio` element should be triggered (e.g. pressing the `Q` key should trigger the drum pad which contains the string `Q`, pressing the `W` key should trigger the drum pad which contains the string `W`, etc.).
+~~**User Story #6:** When I press the trigger key associated with each `.drum-pad`, the audio clip contained in its child `audio` element should be triggered (e.g. pressing the `Q` key should trigger the drum pad which contains the string `Q`, pressing the `W` key should trigger the drum pad which contains the string `W`, etc.).~~
 
-**User Story #7:** When a `.drum-pad` is triggered, a string describing the associated audio clip is displayed as the inner text of the `#display` element (each string must be unique).
+~~**User Story #7:** When a `.drum-pad` is triggered, a string describing the associated audio clip is displayed as the inner text of the `#display` element (each string must be unique).~~
 
 ## incompabatibilities
 
@@ -76,3 +76,7 @@ This morning I've worked on the routing in the app, so that you land on a title 
 So, now, I'm in two minds - I could either try and find some royalty free ones, or I could create some drum sounds of my own. I own a Behringer K2 (modelled after a Korg MS20), which I can make drum sounds on. Plus I also own the R6, so I can record some of those sounds, too.
 
 For now, I'll continue using the sounds from freeCodeCamp.
+
+12/10 - Today I managed to get all the tests passing! Pleased with the overall look of the app, especially with the drum pad animation on click and on keypress!
+
+I would really like to improve the sounds, but also improve the retriggering of a sound. ATM it sounds like the sample won't replay/retrigger until it's stopped playing. So a couple extra things to improve before deploying

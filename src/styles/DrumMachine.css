@@ -6,9 +6,12 @@
 }
 
 #display {
+  width: 384px;
+  height: 24px;
   background-color: #2c2c2c;
   border-radius: 5px;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .drum-pads {
